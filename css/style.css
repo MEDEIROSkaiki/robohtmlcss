@@ -1,0 +1,26 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.robo {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.corpo-robo {
+    position: absolute;
+    top: 50;
+    left: 50;
+    width: 200;
+    height: 200;
+    background-color: blue;
+    border-radius: 30px 30px 0 0;
+}
